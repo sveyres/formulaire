@@ -1,24 +1,40 @@
 section{
     width: 50em;
     margin: auto;
+    box-sizing: border-box;
 }
 div{
     width: 35em;
 }
+
 fieldset{
-    width: 35em;
+    width: 40em;
+
 }
+
 label{
     margin: 0.5em 0;
     width: 35%;
     display:inline-block;
     vertical-align: top;
 }
-input{
-    width: 45%;
+input:not[type="submit"]{
+    width: 55%;
 }
 input[type="tel"]{
     width: 10%;
+}
+input[type="submit"]{
+    margin-left: 35.5%;
+    margin-top: 0.3em;
+    background-color:#ff8500;
+    border:0.1em solid #ff8500;
+    height: 2.5em;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:0.8em;
+    border-radius: 5px;
+
 }
 textarea{
     width: 50%;
