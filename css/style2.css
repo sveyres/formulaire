@@ -1,0 +1,21 @@
+section{
+    width: 50em;
+    margin: auto;
+}
+div{
+    width: 35em;
+}
+fieldset{
+    width: 35em;
+}
+label{
+    margin: 0.5em 0;
+    width: 35%;
+    display:inline-block;
+}
+input{
+    width: 45%;
+}
+input[type="tel"]{
+    width: 10%;
+}

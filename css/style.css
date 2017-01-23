@@ -11,13 +11,12 @@ label{
     display: inline-block;
     padding-top: 1em;
 }
-fieldset input[name*="nom"]{
+
+input[name*="nom"]{
     width: 45%;
 }
-fieldset input{
-    width: 80%;
-}
-fieldset select{
+
+input#email{
     width: 94%;
 }
 select{
@@ -25,4 +24,9 @@ select{
 }
 textarea{
     width: 96%;
+}
+
+input[type="submit"]{
+    background-color: #1e62d0;
+    color :white;
 }
