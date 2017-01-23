@@ -12,10 +12,18 @@ label{
     margin: 0.5em 0;
     width: 35%;
     display:inline-block;
+    vertical-align: top;
 }
 input{
     width: 45%;
 }
 input[type="tel"]{
     width: 10%;
+}
+textarea{
+    width: 50%;
+}
+select{
+    width: 25%;
+    margin-right: 2em;
 }
