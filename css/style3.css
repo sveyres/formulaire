@@ -1,0 +1,46 @@
+section{
+    width: 50em;
+    margin: auto;
+    box-sizing: border-box;
+}
+fieldset{
+    width: 37em;
+    background-color: #fff4f4;
+    border: 1px solid #ffc2dc;
+    margin-top: 1em;
+    border-radius: 7px;
+
+
+}
+label{
+    margin: 0.5em 0;
+    width: 35%;
+    display:inline-block;
+    vertical-align: top;
+    color: #f072a9;
+    margin-left: 1.5em;
+
+}
+input[type="submit"]{
+    margin-left: 16em;
+    margin-top: 1em;
+
+}
+legend{
+    color: #f072a9;
+    width: 6em;
+    text-align: center;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #ffc2dc;
+    padding: 1em 0;
+    background-color: #fff4f4;
+    border-radius: 7px;
+    margin-left: 2em;
+
+}
+
+input, textarea{
+    background-color: #fff4f4;
+    border: 1px solid #ffc2dc;
+}
