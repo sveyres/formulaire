@@ -1,11 +1,28 @@
 main{
     width: 60%;
     margin: auto;
+    box-sizing: border-box;
 }
 form{
     width: 35em;
 }
 label{
-    width: 12em;
+    width: 31em;
     display: inline-block;
+    padding-top: 1em;
+}
+fieldset input[name*="nom"]{
+    width: 45%;
+}
+fieldset input{
+    width: 80%;
+}
+fieldset select{
+    width: 94%;
+}
+select{
+    width: 97%;
+}
+textarea{
+    width: 96%;
 }
