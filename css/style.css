@@ -1,0 +1,11 @@
+main{
+    width: 60%;
+    margin: auto;
+}
+form{
+    width: 35em;
+}
+label{
+    width: 12em;
+    display: inline-block;
+}
