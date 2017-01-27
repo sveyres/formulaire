@@ -1,25 +1,48 @@
-input[type="submit"]{
-margin-top: 1em;
-width: 8em;
-height: 3em;
-border-radius: 7px;
-color: #B0E0E6;
-background-color: #2C75FF;
-margin: auto;
-}
 main {
-    width: 70%;
+    width: 60%;
     margin: auto;
+    box-sizing: border-box;
 }
-input{
-    width: 100%;
+form{
+    border-radius: 15px;
+    box-shadow: 0 0 0.5em #A9A9A9;
+    /*overflow: auto;*/
+
 }
 fieldset{
-    padding: 2.5em;
+    padding: 0 2.5em 2.5em 2.5em;
+    margin: 0 3em;
+    background-color: #F5F5F5;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+legend{
+    font-weight: bold;
+    font-size: 1.3em;
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 2.5em;
+    margin-top: 1em;
+    color:#2C75FF;
+    /*padding-bottom: 1.5em;*/
+}
+legend span{
+    margin-left: -5em;
+    margin-right: 2em;
+    background-color: #2C75FF;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    text-align: center;
 }
 h2{
     background-color: #2C75FF;
     color: white;
+    margin-top: 0;
+    padding: 1em;
+    border-radius: 15px 15px 0 0;
 
 }
 h2 span{
@@ -27,6 +50,52 @@ h2 span{
     font-size: 0.5em;
     width: 100%;
 }
-form{
+label{
+    color: #9E9E9E;
+    font-size: 0.8em;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ffffff;
     border-radius: 5px;
+    box-shadow: 1px 1px 1px #9E9E9E inset;
+}
+input{
+    width: 100%;
+    border: 1px solid #ffffff;
+    height: 2em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #9E9E9E inset;
+    margin-bottom: 1em;
+}
+input[type="submit"]{
+    margin-top: 1em;
+    width: 8em;
+    height: 3em;
+    border-radius: 7px;
+    color: #B0E0E6;
+    background-color: #2C75FF;
+    margin-left: 3em;
+    float: left;
+}
+div{
+    overflow: auto;
+    margin-top: 1em;
+    padding-right: 1.5em;
+    display: inline-flex;
+    width: 45%;
+    height: 6em;
+}
+div input{
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: auto;
+}
+div span{
+    /*margin: auto;*/
+    margin :auto 0;
+    display: table-cell;
+    font-size: 0.7em;
+
 }
