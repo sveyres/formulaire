@@ -1,0 +1,32 @@
+input[type="submit"]{
+margin-top: 1em;
+width: 8em;
+height: 3em;
+border-radius: 7px;
+color: #B0E0E6;
+background-color: #2C75FF;
+margin: auto;
+}
+main {
+    width: 70%;
+    margin: auto;
+}
+input{
+    width: 100%;
+}
+fieldset{
+    padding: 2.5em;
+}
+h2{
+    background-color: #2C75FF;
+    color: white;
+
+}
+h2 span{
+    display: inline-block;
+    font-size: 0.5em;
+    width: 100%;
+}
+form{
+    border-radius: 5px;
+}
